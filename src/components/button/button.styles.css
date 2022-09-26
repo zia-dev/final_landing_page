@@ -1,0 +1,40 @@
+.button-container {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 8rem;
+    min-width: 12rem;
+    width: auto;
+    height: 4rem;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+    padding: 0 2rem 0 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.orangeBtn {
+    background: #F57059;
+}
+
+.greenBtn {
+    background: #05796B;
+    box-shadow: 0rem 3.8rem 5rem rgba(5, 121, 107, 0.2);
+}
+.largeBtn{
+    width: 16rem;
+}
+
+@media screen and (max-width: 450px)
+{
+    .button-container{
+        display: flex;
+        margin: 20px auto !important;   
+    }
+}

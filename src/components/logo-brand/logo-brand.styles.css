@@ -1,0 +1,81 @@
+.logbrand-wrapper {
+  /* width: 80%; */
+  /* display: flex;
+    justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 14.28fr 14.28fr 14.28fr 14.28fr 14.28fr 14.28fr 14.28fr;
+
+}
+
+.logobrand-title>h2 {
+  /* font-family: ; */
+  font-family: 'Gilroy-Bold';
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 5rem;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+  .logbrand-wrapper {
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    grid-row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .logobrand-container {
+    margin-top: 30px;
+  }
+  .logbrand-wrapper {
+    grid-template-columns: 33.33fr 33.33fr 33.33fr;
+  }
+
+  .logbrand-wrapper img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .logbrand-wrapper {
+    grid-template-columns: 50fr 50fr;
+    grid-row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 350px)
+{
+  .logbrand-wrapper {
+    display: block;
+  }
+
+  .logbrand-wrapper .logbrand-img {
+    margin-bottom: 40px;
+  }
+}
+
+/* mobile */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .logbrand-wrapper{
+        width: 80%; //previously committed
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }    
+
+} */
+
+/* ipad */
+/* Portrait and Landscape  */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+} */

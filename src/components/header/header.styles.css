@@ -1,0 +1,167 @@
+.header-wrapper {
+    display: flex;
+    /* align-items: center; */
+
+}
+
+.header-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex: 0%; */
+}
+
+.header-right-wrapper {
+    padding: 1rem;
+}
+
+.header-right-wrapper img {
+    height: 45rem;
+}
+
+.header-subtitle {
+    font-family: 'Gilroy-Bold';
+    font-size: 2.2rem;
+    margin-top: 6rem;
+}
+
+.header-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.5rem;
+}
+
+.header-body-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.button-container{
+    margin: 3rem 0rem;
+}
+
+.header-bottom-wrapper {
+    display: flex;
+}
+
+.hb-user h2,
+.hb-saved h2 {
+    margin-bottom: 4%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.header-para {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  
+   .header-wrapper{
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0 15px;
+   }
+   
+   .header-right-wrapper {
+    text-align: center;
+   }
+
+   .header-right-wrapper img{
+    padding-top: 2rem;
+   }
+
+   .button-container{
+        /* display: block; */
+        margin: 3rem auto;
+    }
+   
+}
+
+@media screen and (max-width: 600px) {
+    .header-title {
+        font-size: 3rem;
+    }
+
+    .header-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .header-body-text {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .header-para {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 450px)
+{
+    .header-bottom-wrapper {
+        display: block;
+    }
+
+    .hb-user {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .header-right-wrapper img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .header-wrapper {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .header-right-wrapper img {
+        padding-top: 3rem;
+    }
+
+    .header-right-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0;
+    }
+
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .header-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .header-body-text {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    .header-para {
+        font-size: 1.1rem;
+    }
+
+}

@@ -1,0 +1,92 @@
+.discover-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05796B;
+    height: 38rem;
+    border-radius: 1.6rem;
+    position: relative;
+}
+
+.discover-text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.8rem;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding: 0rem 15rem;
+}
+
+.discover-wrapper>button{
+    margin-bottom: 0;
+}
+
+.dotted{
+    background-image: url('../../assets/dotted.png');
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 7.5rem;
+    left: 16rem;
+}
+.dotted-vertical{
+    background-image: url('../../assets/dot-veritical.png');
+    background-repeat: no-repeat;
+    width: 1.7rem;
+    height: 12rem;
+    position: absolute;
+    bottom: 40px;
+    left: 40px
+}
+.dotted-horizontal{
+    background-image: url('../../assets/dot-veritical.png');
+    background-repeat: no-repeat;
+    width: 1.7rem;
+    height: 12rem;
+    position: absolute;
+    top: 0px;
+    right: 160px;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 992px) {
+    .discover-text {
+        padding: 0 5rem;   
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .discover-text {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .discover-wrapper {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .discover-text {
+        font-size: 3rem;
+    }
+    .discover-wrapper {
+        height: 35rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .discover-text {
+        font-size: 2.5rem;
+        padding: 0 10px;
+    }
+
+    .discover-wrapper {
+        height: 40rem;
+    }
+}

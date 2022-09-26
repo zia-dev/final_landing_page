@@ -1,0 +1,90 @@
+.desire-wrapper,.desire-right, .desire-left{
+    display: flex;
+}
+
+.desire-right{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.dr-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    width: 65%;
+    /* text-align: left; */
+    /* margin-bottom: 4rem; */
+}
+.dr-subtitle {
+    font-family: 'Manrope';
+    font-size: 1.8rem;
+    text-align: left;
+    /* line-height: 5rem; */
+}
+
+@media screen and (max-width: 1200px)
+{
+    .desire-wrapper{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .dr-title {
+        font-size: 3rem;
+        width: unset;
+    }
+    .dr-subtitle {
+        font-size: 1.3rem;
+    }
+    .desire-right {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .dr-title {
+        font-size: 2.5rem;
+        text-align: center !important;
+        width: 100%;
+    }
+    .dr-subtitle {
+        font-size: 1.3rem;
+        text-align: center !important;
+    }
+
+    .desire-wrapper {
+        display: block;
+    }
+
+    .desire-wrapper img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    .desire-right {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .desire-right .dr-btn {
+        width: 100%;
+    }
+
+    .desire-right .button-container {
+        display: block;
+        margin: 30px auto 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .desire-wrapper img {
+        width: 80%;
+    }
+}

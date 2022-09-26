@@ -1,0 +1,88 @@
+.manage-app-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    /* margin-bottom: 4rem; */
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.manage-app-subtitle {
+    font-family: 'Manrope';
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+    /* line-height: 5rem; */
+}
+
+/* .manage-app-title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.manage-app-subtitle{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;   
+} */
+.bg-red{
+    color: #F57059;
+}
+.manage-app-wrapper{
+    padding-top: 8rem;
+}
+
+.btn-fa-icons{
+    padding-right: .5rem;
+    font-size: 2rem;
+}
+.manage-app-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+    
+}
+
+.manage-app-btn-wrapper>button{
+    padding: 2rem;
+    margin: .5rem;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .manage-app-wrapper{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .manage-app-title {
+        font-size: 2.7rem;
+    }
+    .manage-app-subtitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .manage-app-title {
+        font-size: 2rem;
+    }
+    .manage-app-subtitle {
+        font-size: 1.3rem;
+    }
+    .manage-app-btn-wrapper{
+        display: block;   
+    }
+}

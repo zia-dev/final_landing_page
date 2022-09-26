@@ -1,0 +1,48 @@
+.service-card-wrapper {
+    padding: 2.5rem;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: .1rem solid #E7E7E7;
+    border-radius: 1.5rem;
+    display: block;
+    margin: auto;
+}
+
+.service-card-img {
+    background: #ECECEC;
+    height: 27%;
+    width: 25%;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.service-card-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+.bgColor{
+    background-color: #05796B;
+    color: white;
+}
+
+.service-card-wrapper.bgColor > .service-card-title{
+    width: 20%;
+    padding-top: 3rem;
+}

@@ -1,0 +1,67 @@
+.subtitle {
+    font-family: 'Gilroy-Bold';
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    margin-bottom: 4rem;
+}
+.service-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+.bg-vector{
+    background-image: url('../../assets/service-grid.png');
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    top: 2;
+    right: 0;
+    
+}
+
+@media screen and (max-width: 1200px)
+{
+    .service-card-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .service-card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .title {
+        font-size: 3rem;
+    }
+
+    .service-card-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .title {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,193 @@
+.planCard-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3.5rem;
+    gap: 3.2rem;
+    width: 30rem;
+    height: 50rem;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 80px rgba(5, 121, 107, 0.32);
+    border-radius: 1.6rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+
+.plan-type {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 115%;
+    letter-spacing: .2rem;
+}
+
+.plan-price {
+    font-weight: 700;
+    font-size: 5rem;
+    padding: 0;
+}
+
+.plan-month,
+.plan-description,
+.lists li,
+.plan-btn {
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: 0;
+}
+
+
+
+
+.greyColor {
+    color: #8593A3;
+}
+
+
+
+.greenback {
+    background: #05796B;
+    color: #FFFFFF;
+}
+
+/* #basic-list-2 {
+    background: url('../../assets/cross.png') no-repeat 0 10px;
+
+} */
+/* 
+#basic-list-0, #basic-list-1  {
+    list-style-image: url('../../assets/green-tick.png');
+}
+#basic-list-2, #basic-list-3 {
+    list-style-image: url('../../assets/cross.png');
+    font-size: 10%;
+
+} */
+.plan-list ul li {
+    line-height: 2.2rem;
+
+}
+
+.plan-list ul {
+    line-height: 2.2rem;
+    margin: 0;
+    padding-left: 2.2rem;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1.8rem;
+}
+
+#basic-list-0,
+#basic-list-1 {
+    background-image: url("../../assets/green-tick.png");
+
+}
+
+#basic-list-2,
+#basic-list-3 {
+    background-image: url("../../assets/cross.png");
+}
+
+#basic-list-2 li,
+#basic-list-3 li {
+    opacity: .3;
+
+}
+
+.pro {
+    background-image: url("../../assets/white-tick.png");
+
+}
+
+.plan-btn {
+    padding: 1.3rem 5rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    /* box-shadow: 0px 48px 80px rgba(0, 0, 0, 0.4); */
+    border-radius: 8rem;
+    color: #000
+}
+
+.basic-btn {
+
+    box-shadow: 0px 8px 80px rgba(167, 167, 167, 0.24);
+    border: 1px dotted #8593A3;
+}
+
+.pro-btn {
+
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    box-shadow: 0px 48px 80px rgba(0, 0, 0, 0.4);
+
+    border: 1px dotted #8593A3;
+}
+
+.black-btn {
+    padding: 1.3rem 5rem;
+    background: #282828;
+    border-radius: 80px;
+    padding: 16px 32px;
+    position: absolute;
+    top: -2rem;
+    right: -3rem;
+}
+
+.basic-black-btn {
+    display: none;
+}
+
+@media screen and (max-width: 768px)
+{
+    .planCard-wrapper {
+        margin: 0 auto 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px)
+{
+    .planCard-wrapper {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .planCard-wrapper {
+        width: 85%;
+    }
+
+    .plan-type {
+        font-size: 1.2rem;
+        line-height: 115%;
+        letter-spacing: .2rem;
+    }
+    
+    .plan-price {
+        font-size: 4rem;
+    }
+    
+    .plan-month,
+    .plan-description,
+    .lists li,
+    .plan-btn {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .planCard-wrapper {
+        width: 95%;
+    }
+    .plan-month,
+    .plan-description,
+    .lists li,
+    .plan-btn {
+        font-size: 1rem;
+    }
+}
