@@ -65,7 +65,9 @@ import './footer.styles.css'
              </div>
             </div>
             <div className='footer-end-row'>
-                <p>Copyright @ AR SHAKIR 2022. All Rights Reserved</p>
+            <a href="https://github.com/zia-dev/" target="_blank" rel="noopener noreferrer">
+                <p>Contact Me <i class="ft-social-icons fa-brands fa-github"></i></p>
+                </a>
               </div>
             </div>
           )
